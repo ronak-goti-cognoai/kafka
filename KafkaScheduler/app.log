@@ -1,0 +1,50 @@
+2022-08-25 11:59:16,926 - INFO - [utils_livechat.py:37] - /home/ronakgoti/Desktop/xyz/files/
+2022-08-25 12:01:27,892 - INFO - [utils_livechat_reports.py:23] - inside generate report
+2022-08-25 12:01:27,892 - INFO - [utils_livechat.py:37] - /home/ronakgoti/Desktop/xyz/files/
+2022-08-25 12:11:25,421 - INFO - [utils_livechat_reports.py:23] - inside generate report
+2022-08-25 12:11:25,421 - INFO - [utils_livechat.py:37] - /home/ronakgoti/Desktop/xyz/files/
+2022-08-25 12:16:50,529 - INFO - [utils_livechat_reports.py:23] - inside generate report
+2022-08-25 12:16:50,529 - INFO - [utils_livechat.py:202] - inside generate_livechat_report
+2022-08-25 12:16:50,529 - INFO - [utils_livechat.py:24] - inside generate_chat_history_report
+2022-08-25 12:26:41,434 - INFO - [utils_livechat_reports.py:23] - inside generate report
+2022-08-25 12:26:41,434 - INFO - [utils_livechat.py:202] - inside generate_livechat_report
+2022-08-25 12:26:41,434 - INFO - [utils_livechat.py:24] - inside generate_chat_history_report
+2022-08-25 12:52:29,469 - INFO - [utils_livechat_reports.py:22] - inside generate report
+2022-08-25 12:52:29,469 - INFO - [utils_livechat.py:220] - inside generate_livechat_report
+2022-08-25 12:52:29,469 - INFO - [utils_livechat.py:41] - inside generate_chat_history_report
+2022-08-25 12:52:29,470 - ERROR - [utils_livechat.py:83] - generate_chat_history_excel() takes 1 positional argument but 2 were given
+2022-08-25 12:52:29,470 - ERROR - [utils_livechat.py:109] - [Errno 2] No such file or directory: '/home/ronakgoti/Desktop/xyz/files/livechat-chat-history/gotironak@gmail.com/chat_history_2022-08-25.xls'
+2022-08-25 12:52:29,470 - ERROR - [utils_livechat.py:145] - generate_chat_history_excel() takes 1 positional argument but 2 were given
+2022-08-25 12:52:29,470 - ERROR - [utils_livechat.py:173] - [Errno 2] No such file or directory: '/home/ronakgoti/Desktop/xyz/files/livechat-chat-history/ronak@gmail.com/chat_history_2022-08-25.xls'
+2022-08-25 12:55:43,171 - INFO - [utils_livechat_reports.py:22] - inside generate report
+2022-08-25 12:55:43,171 - INFO - [utils_livechat.py:220] - inside generate_livechat_report
+2022-08-25 12:55:43,171 - INFO - [utils_livechat.py:41] - inside generate_chat_history_report
+2022-08-25 12:55:43,171 - ERROR - [utils_livechat.py:83] - generate_chat_history_excel() takes 1 positional argument but 2 were given
+2022-08-25 12:55:43,171 - ERROR - [utils_livechat.py:109] - [Errno 2] No such file or directory: '/home/ronakgoti/Desktop/xyz/files/livechat-chat-history/gotironak@gmail.com/chat_history_2022-08-25.xls'
+2022-08-25 12:55:43,172 - ERROR - [utils_livechat.py:145] - generate_chat_history_excel() takes 1 positional argument but 2 were given
+2022-08-25 12:55:43,172 - ERROR - [utils_livechat.py:173] - [Errno 2] No such file or directory: '/home/ronakgoti/Desktop/xyz/files/livechat-chat-history/ronak@gmail.com/chat_history_2022-08-25.xls'
+2022-08-25 12:57:36,812 - INFO - [utils_livechat_reports.py:22] - inside generate report
+2022-08-25 12:57:36,812 - INFO - [utils_livechat.py:221] - inside generate_livechat_report
+2022-08-25 12:57:36,812 - INFO - [utils_livechat.py:42] - inside generate_chat_history_report
+2022-08-25 12:57:36,812 - INFO - [utils_livechat.py:38] - sub function
+2022-08-25 12:57:36,812 - INFO - [utils_livechat.py:81] - main function
+2022-08-25 12:57:36,816 - INFO - [utils_livechat.py:38] - sub function
+2022-08-25 13:07:34,187 - INFO - [utils_livechat_reports.py:22] - inside generate report
+2022-08-25 13:07:34,187 - INFO - [utils_livechat.py:221] - inside generate_livechat_report
+2022-08-25 13:07:34,187 - INFO - [utils_livechat.py:42] - inside generate_chat_history_report
+2022-08-25 13:09:36,924 - INFO - [utils_livechat_reports.py:22] - inside generate report
+2022-08-25 13:09:36,924 - INFO - [utils_livechat.py:186] - inside generate_livechat_report
+2022-08-25 13:09:36,924 - INFO - [utils_livechat.py:47] - inside generate_chat_history_report
+2022-08-25 13:09:36,924 - ERROR - [utils_livechat.py:71] - generate_chat_history_excel() missing 1 required positional argument: 'sheet'
+2022-08-25 13:09:36,924 - ERROR - [utils_livechat.py:97] - [Errno 2] No such file or directory: '/home/ronakgoti/Desktop/xyz/files/livechat-chat-history/gotironak@gmail.com/chat_history_2022-08-25.xls'
+2022-08-25 13:09:36,924 - ERROR - [utils_livechat.py:112] - generate_chat_history_excel() missing 1 required positional argument: 'sheet'
+2022-08-25 13:09:36,924 - ERROR - [utils_livechat.py:139] - [Errno 2] No such file or directory: '/home/ronakgoti/Desktop/xyz/files/livechat-chat-history/ronak@gmail.com/chat_history_2022-08-25.xls'
+2022-08-25 13:10:38,364 - INFO - [utils_livechat_reports.py:22] - inside generate report
+2022-08-25 13:10:38,364 - INFO - [utils_livechat.py:186] - inside generate_livechat_report
+2022-08-25 13:10:38,364 - INFO - [utils_livechat.py:47] - inside generate_chat_history_report
+2022-08-25 13:17:23,720 - INFO - [utils_livechat_reports.py:22] - inside generate report
+2022-08-25 13:17:23,720 - INFO - [utils_livechat.py:166] - inside generate_livechat_report
+2022-08-25 13:17:23,720 - INFO - [utils_livechat.py:72] - inside generate_chat_history_report
+2022-08-25 13:27:18,333 - INFO - [utils_livechat_reports.py:22] - inside generate report
+2022-08-25 13:27:18,333 - INFO - [utils_livechat.py:166] - inside generate_livechat_report
+2022-08-25 13:27:18,333 - INFO - [utils_livechat.py:72] - inside generate_chat_history_report

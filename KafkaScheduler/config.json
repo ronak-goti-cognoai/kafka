@@ -1,0 +1,11 @@
+{
+    "KAFKA_BOOTSTRAP_SERVERS": "127.0.0.1:9092",
+    "TOPIC": "LiveChatCustomerTopic",
+    "TOPIC1": "LiveChatReportTopic",
+    "TOPIC2": "LiveChatReportTesting",
+    "CHATBOT_SERVER_HOST": "http://127.0.0.1",
+    "LIVECHAT_SERVER_HOST": "https://rnd.allincall.in",
+    "COBROWSING_SERVER_HOST": "http://127.0.0.1",
+    "CAMPAIGN_SERVER_HOST": "http://127.0.0.1",
+    "WSS": "ws://127.0.0.1"
+}
