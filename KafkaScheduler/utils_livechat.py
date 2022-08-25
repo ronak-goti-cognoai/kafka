@@ -11,13 +11,11 @@ from xlutils.copy import copy
 from os import path
 import logging
 import logger_setup
-
+logger = logger_setup.setup_logger(__name__,'app.log')
 class LiveChatUtils:
 
     def __init__(self, config):
         self.config = config
-        self.logger = logger_setup.setup_logger(__name__,'app.log')
-        #self.log_file = open("/home/ronakgoti/Desktop/CoBrowsing/EasyChat/KafkaScheduler/log.txt", "a")
     
     def generate_chat_history_excel(self, file_path):
         
@@ -69,7 +67,7 @@ class LiveChatUtils:
          
     def generate_chat_history_report(self, data):
         
-        self.logger.info("inside generate_chat_history_report")
+        logger.info("inside generate_chat_history_report")
 
         parent_user = data["parent_user"] 
         second_user =data["second_user"] 
@@ -91,13 +89,13 @@ class LiveChatUtils:
                 try:
                     self.generate_chat_history_excel(base_path + file_path)
                 except Exception as e:
-                    self.logger.error(e)
+                    logger.error(e)
             
             try:
                 self.add_chat_history_report(base_path + file_path, data)
                 
             except Exception as e:
-                self.logger.error(e)
+                logger.error(e)
             
         if second_user!="None":
 
@@ -112,17 +110,17 @@ class LiveChatUtils:
                 try:
                     self.generate_chat_history_excel(base_path + file_path)
                 except Exception as e:
-                    self.logger.error(e)
+                    logger.error(e)
                 
             try:
                 self.add_chat_history_report(base_path + file_path, data)
             except Exception as e:
-                self.logger.error(e)
+                logger.error(e)
             
             
     def generate_chat_history_test_report(self, data):
         
-        self.logger.info("inside generate_chat_history_test_report")
+        logger.info("inside generate_chat_history_test_report")
 
         today = datetime.now()
         current_time = today.strftime("%H:%M:%S")
@@ -157,13 +155,13 @@ class LiveChatUtils:
             sheet.write(r, 0, data["index"])
             sheet.write(r, 1, data["username"])
         except Exception as e:
-            self.logger.error(e)
+            logger.error(e)
         
         wb.save(base_path + file_path)
             
         
     def generate_livechat_report(self, data):
-        self.logger.info("inside generate_livechat_report")
+        logger.info("inside generate_livechat_report")
         response = {}
         try:
             if data["type"] == "ChatHistoryReport":
@@ -172,13 +170,13 @@ class LiveChatUtils:
                 self.generate_chat_history_test_report(data)
         except Exception as e:
             response = {}
-            self.logger.error(e)
+            logger.error(e)
 
         return response
 
     def request_to_assign_livechat_customer_to_agent(self, data):
         response_data = {}
-        self.logger.info("inside request_to_assign_livechat_customer_to_agent")
+        logger.info("inside request_to_assign_livechat_customer_to_agent")
         try:
             request_start_time = time.time()
             url = self.config["LIVECHAT_SERVER_HOST"] + "/livechat/assign-livechat-agent/"
